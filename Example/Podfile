@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ASInAppCallStatusBar_Tests' do
+  pod 'ASInAppCallStatusBar', :path => '../'
+  
+  
+end
