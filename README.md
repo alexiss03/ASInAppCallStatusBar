@@ -22,7 +22,7 @@ pod "ASInAppCallStatusBar"
 
 ## Author
 
-Mary Alexis Solis, mary@noteabout.com
+Mary Alexis Solis, maryalexissolis@gmail.com
 
 ## License
 
