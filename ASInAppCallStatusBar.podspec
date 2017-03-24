@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ASInAppCallStatusBar/Classes/**/*'
   
-  s.resource_bundles = {
+  s.resources = {
     'ASInAppCallStatusBar' => ['ASInAppCallStatusBar/**/*.png', 'ASInAppCallStatusBar/**/*.xib', 'ASInAppCallStatusBar/**/*.nib']
   }
 
