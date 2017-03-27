@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2FB96A4B53204C0A6F02C0A79B82AEAD4BAE2133",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A50470F01822A19C97CC9328F60A8E59F15F7171" : 9223372036854775807,
+    "2FB96A4B53204C0A6F02C0A79B82AEAD4BAE2133" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF97B424-489E-40B5-AAB6-3EDFF055E789",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A50470F01822A19C97CC9328F60A8E59F15F7171" : "..\/Projects\/iOS%20Projects\/noteabout-chat-ios",
+    "2FB96A4B53204C0A6F02C0A79B82AEAD4BAE2133" : "Sample-InAppCallStatusBar\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample-InAppCallStatusBar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample-InAppCallStatusBar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:alexiss03\/ASInAppCallStatusBar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FB96A4B53204C0A6F02C0A79B82AEAD4BAE2133"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/119.81.225.69:7990\/scm\/~mark\/noteabout-chat-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A50470F01822A19C97CC9328F60A8E59F15F7171"
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002FB34BD5882B144FC2D5CD487D3C60 /* TimerTargetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4308194A7605B2DDA932D5A2173B8D /* TimerTargetWrapper.m */; };
+		00F6BCFFBED7BA291F6D61A17804937C /* ASInAppCallStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD5763CE68F88D4F141D48542FF3BC1 /* ASInAppCallStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5803A8B0AAF4E738259AAF3649C64C /* Pods-Sample-InAppCallStatusBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A175AEBB6B3752D9A7724307C81A2 /* Pods-Sample-InAppCallStatusBar-dummy.m */; };
+		452C3A192077E0B09B15BADBD3571215 /* TimerTargetWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 23401ACBD81BE6382865DACE7CCD1079 /* TimerTargetWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5F1285F738A957465EB19CA320201E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9B66566BE41A94E7B576BD7B602FF633 /* Pods-Sample-InAppCallStatusBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B607E36951EFAC3B9CF041CC71451 /* Pods-Sample-InAppCallStatusBarUITests-dummy.m */; };
+		9C37ADA3116FCF6C09471860F13E17F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AC57C7B78EC2A1F0300FDC2D89FB9FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B5351AC8DC35FEEF86D9F5F5BFC52BF2 /* ASInAppCallStatusBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A392658BB0E9D1A9E30098EF4647418 /* ASInAppCallStatusBar-dummy.m */; };
+		BFE31B5D2A9B3BF61749E84427BA6D91 /* ASInAppCallStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D983DCDAC9FC5D54F478D0D1187CE /* ASInAppCallStatusBar.m */; };
+		C24A53630CCC3B722B7011BABFB71B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FC01BD4F6B90B8AB229FBB39D1896FB3 /* Pods-Sample-InAppCallStatusBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D73048F4C46EAEFF9672387B3B411A4 /* Pods-Sample-InAppCallStatusBarTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03001A80FA6DE19B96FF1420E3EE4BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CFBFF547D37205AE2898EC9A7E0DBDD;
+			remoteInfo = ASInAppCallStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020B10B86DB36C33C28E03320C95EA8F /* Pods-Sample-InAppCallStatusBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		04416B0A28BF183CE0760DC16BBD8944 /* Pods-Sample-InAppCallStatusBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A447B63BFFCD52AF3D2E1AA73255FE4 /* Pods-Sample-InAppCallStatusBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-InAppCallStatusBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		195F8855B557FAE6719C268E91401541 /* libPods-Sample-InAppCallStatusBarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Sample-InAppCallStatusBarUITests.a"; path = "libPods-Sample-InAppCallStatusBarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5D983DCDAC9FC5D54F478D0D1187CE /* ASInAppCallStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASInAppCallStatusBar.m; sourceTree = "<group>"; };
+		23401ACBD81BE6382865DACE7CCD1079 /* TimerTargetWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimerTargetWrapper.h; sourceTree = "<group>"; };
+		2A392658BB0E9D1A9E30098EF4647418 /* ASInAppCallStatusBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASInAppCallStatusBar-dummy.m"; sourceTree = "<group>"; };
+		46A73F31323AE58E1AF678CE9439742B /* Pods-Sample-InAppCallStatusBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-InAppCallStatusBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C5EA7F816BF283169F7F6F7A28A50FA /* Pods-Sample-InAppCallStatusBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-InAppCallStatusBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CD00B056493691C02BD7867D3B1F99A /* Pods-Sample-InAppCallStatusBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		657B607E36951EFAC3B9CF041CC71451 /* Pods-Sample-InAppCallStatusBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-InAppCallStatusBarUITests-dummy.m"; sourceTree = "<group>"; };
+		6811DE97ED3E5768242AE3B5B55DBC2C /* ASInAppCallStatusBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASInAppCallStatusBar.xcconfig; sourceTree = "<group>"; };
+		74279D31546DED4110A2900A47E68F9B /* libPods-Sample-InAppCallStatusBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Sample-InAppCallStatusBar.a"; path = "libPods-Sample-InAppCallStatusBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D73048F4C46EAEFF9672387B3B411A4 /* Pods-Sample-InAppCallStatusBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-InAppCallStatusBarTests-dummy.m"; sourceTree = "<group>"; };
+		81E3ADBECE0A2E38897D84DA858EC4F0 /* Pods-Sample-InAppCallStatusBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBar.debug.xcconfig"; sourceTree = "<group>"; };
+		86E025EBE7F14AC036052BE75F1F68EC /* Pods-Sample-InAppCallStatusBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9859AC6DD35C3CC5E42F364DA49F2DAA /* Pods-Sample-InAppCallStatusBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBar-resources.sh"; sourceTree = "<group>"; };
+		A35BB0A4EFF9F2EF56054B7F8D4553AF /* Pods-Sample-InAppCallStatusBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBar.release.xcconfig"; sourceTree = "<group>"; };
+		A48A175AEBB6B3752D9A7724307C81A2 /* Pods-Sample-InAppCallStatusBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-InAppCallStatusBar-dummy.m"; sourceTree = "<group>"; };
+		AFD5763CE68F88D4F141D48542FF3BC1 /* ASInAppCallStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASInAppCallStatusBar.h; sourceTree = "<group>"; };
+		B4E2A0E7B8605394262128E2154FE700 /* ASInAppCallStatusBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ASInAppCallStatusBar.xib; sourceTree = "<group>"; };
+		BB357334C02F767202B5BF8521A651BD /* Pods-Sample-InAppCallStatusBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-InAppCallStatusBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C40E0B572E73A14B6B69FD41202F3AF0 /* Pods-Sample-InAppCallStatusBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBar-frameworks.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D27FE87D2E68130685DB024F3F45B297 /* libPods-Sample-InAppCallStatusBarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Sample-InAppCallStatusBarTests.a"; path = "libPods-Sample-InAppCallStatusBarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CBF7985DD8741514E3C2529AAC85C8 /* Pods-Sample-InAppCallStatusBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample-InAppCallStatusBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E32AB0F262D6987126E792810070C68A /* Pods-Sample-InAppCallStatusBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-InAppCallStatusBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB4308194A7605B2DDA932D5A2173B8D /* TimerTargetWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimerTargetWrapper.m; sourceTree = "<group>"; };
+		EE34D5CBAF7ADD32587EFE0922BF7C51 /* Pods-Sample-InAppCallStatusBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		EEA254C85A45FADDC3D105D048B1EEAF /* Pods-Sample-InAppCallStatusBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBarUITests-resources.sh"; sourceTree = "<group>"; };
+		F09004A421C5BAD73DC1B6942048E208 /* libASInAppCallStatusBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libASInAppCallStatusBar.a; path = libASInAppCallStatusBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B82C6563CA0167D8F65072041D30DD /* ASInAppCallStatusBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASInAppCallStatusBar-prefix.pch"; sourceTree = "<group>"; };
+		F5D9DCD111E2DB31F4B40E5DA182CA18 /* Pods-Sample-InAppCallStatusBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-InAppCallStatusBarTests-resources.sh"; sourceTree = "<group>"; };
+		FE763977D10055D5AC6D38E0CF592DE4 /* Pods-Sample-InAppCallStatusBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-InAppCallStatusBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DA66A1543C8171240659F0E8179DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C37ADA3116FCF6C09471860F13E17F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D35815B6BB2D00FE5BC31626D1519BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24A53630CCC3B722B7011BABFB71B96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C270BC3780EF44922A9515BDFB198FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC57C7B78EC2A1F0300FDC2D89FB9FCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C7D8E770600E877C970DA1B52A2E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F1285F738A957465EB19CA320201E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0463B87F5A7E2B865A872848BC06CCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09004A421C5BAD73DC1B6942048E208 /* libASInAppCallStatusBar.a */,
+				74279D31546DED4110A2900A47E68F9B /* libPods-Sample-InAppCallStatusBar.a */,
+				D27FE87D2E68130685DB024F3F45B297 /* libPods-Sample-InAppCallStatusBarTests.a */,
+				195F8855B557FAE6719C268E91401541 /* libPods-Sample-InAppCallStatusBarUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C042562632244750D32F2EAA280FE91 /* ASInAppCallStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				B1C0C1FAD7EF4A2B83837076BC016EC8 /* Classes */,
+			);
+			name = ASInAppCallStatusBar;
+			path = ASInAppCallStatusBar;
+			sourceTree = "<group>";
+		};
+		0F0A05194E907135A4D568CB576DAC0E /* ASInAppCallStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C042562632244750D32F2EAA280FE91 /* ASInAppCallStatusBar */,
+				A18950DFC00A9434FDD303AF47D95097 /* Resources */,
+				AA401D954B345AF2EBF6B29F4BA24035 /* Support Files */,
+			);
+			name = ASInAppCallStatusBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48420179F78D8B0EB62F31A7EF9710C1 /* Pods-Sample-InAppCallStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE763977D10055D5AC6D38E0CF592DE4 /* Pods-Sample-InAppCallStatusBarTests-acknowledgements.markdown */,
+				0A447B63BFFCD52AF3D2E1AA73255FE4 /* Pods-Sample-InAppCallStatusBarTests-acknowledgements.plist */,
+				7D73048F4C46EAEFF9672387B3B411A4 /* Pods-Sample-InAppCallStatusBarTests-dummy.m */,
+				EE34D5CBAF7ADD32587EFE0922BF7C51 /* Pods-Sample-InAppCallStatusBarTests-frameworks.sh */,
+				F5D9DCD111E2DB31F4B40E5DA182CA18 /* Pods-Sample-InAppCallStatusBarTests-resources.sh */,
+				04416B0A28BF183CE0760DC16BBD8944 /* Pods-Sample-InAppCallStatusBarTests.debug.xcconfig */,
+				5CD00B056493691C02BD7867D3B1F99A /* Pods-Sample-InAppCallStatusBarTests.release.xcconfig */,
+			);
+			name = "Pods-Sample-InAppCallStatusBarTests";
+			path = "Target Support Files/Pods-Sample-InAppCallStatusBarTests";
+			sourceTree = "<group>";
+		};
+		4AA542ABD3C1248FEE5A25AA62A878A1 /* Pods-Sample-InAppCallStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				46A73F31323AE58E1AF678CE9439742B /* Pods-Sample-InAppCallStatusBar-acknowledgements.markdown */,
+				4C5EA7F816BF283169F7F6F7A28A50FA /* Pods-Sample-InAppCallStatusBar-acknowledgements.plist */,
+				A48A175AEBB6B3752D9A7724307C81A2 /* Pods-Sample-InAppCallStatusBar-dummy.m */,
+				C40E0B572E73A14B6B69FD41202F3AF0 /* Pods-Sample-InAppCallStatusBar-frameworks.sh */,
+				9859AC6DD35C3CC5E42F364DA49F2DAA /* Pods-Sample-InAppCallStatusBar-resources.sh */,
+				81E3ADBECE0A2E38897D84DA858EC4F0 /* Pods-Sample-InAppCallStatusBar.debug.xcconfig */,
+				A35BB0A4EFF9F2EF56054B7F8D4553AF /* Pods-Sample-InAppCallStatusBar.release.xcconfig */,
+			);
+			name = "Pods-Sample-InAppCallStatusBar";
+			path = "Target Support Files/Pods-Sample-InAppCallStatusBar";
+			sourceTree = "<group>";
+		};
+		52FD16CDF3394BCC4AC6590C7F002B6B /* ASInAppCallStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				DD1A9A090B87F2DE85762957B69D9614 /* Assets */,
+			);
+			name = ASInAppCallStatusBar;
+			path = ASInAppCallStatusBar;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F816483E155931BF05E8F685C58C9A15 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0463B87F5A7E2B865A872848BC06CCA9 /* Products */,
+				ACAD16CFD58F3832B660DBBF5B6AFDC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A18950DFC00A9434FDD303AF47D95097 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52FD16CDF3394BCC4AC6590C7F002B6B /* ASInAppCallStatusBar */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A203800BDD89C4BC193A2F825299791E /* Pods-Sample-InAppCallStatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB357334C02F767202B5BF8521A651BD /* Pods-Sample-InAppCallStatusBarUITests-acknowledgements.markdown */,
+				E32AB0F262D6987126E792810070C68A /* Pods-Sample-InAppCallStatusBarUITests-acknowledgements.plist */,
+				657B607E36951EFAC3B9CF041CC71451 /* Pods-Sample-InAppCallStatusBarUITests-dummy.m */,
+				020B10B86DB36C33C28E03320C95EA8F /* Pods-Sample-InAppCallStatusBarUITests-frameworks.sh */,
+				EEA254C85A45FADDC3D105D048B1EEAF /* Pods-Sample-InAppCallStatusBarUITests-resources.sh */,
+				86E025EBE7F14AC036052BE75F1F68EC /* Pods-Sample-InAppCallStatusBarUITests.debug.xcconfig */,
+				D4CBF7985DD8741514E3C2529AAC85C8 /* Pods-Sample-InAppCallStatusBarUITests.release.xcconfig */,
+			);
+			name = "Pods-Sample-InAppCallStatusBarUITests";
+			path = "Target Support Files/Pods-Sample-InAppCallStatusBarUITests";
+			sourceTree = "<group>";
+		};
+		AA401D954B345AF2EBF6B29F4BA24035 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6811DE97ED3E5768242AE3B5B55DBC2C /* ASInAppCallStatusBar.xcconfig */,
+				2A392658BB0E9D1A9E30098EF4647418 /* ASInAppCallStatusBar-dummy.m */,
+				F1B82C6563CA0167D8F65072041D30DD /* ASInAppCallStatusBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASInAppCallStatusBar";
+			sourceTree = "<group>";
+		};
+		ACAD16CFD58F3832B660DBBF5B6AFDC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA542ABD3C1248FEE5A25AA62A878A1 /* Pods-Sample-InAppCallStatusBar */,
+				48420179F78D8B0EB62F31A7EF9710C1 /* Pods-Sample-InAppCallStatusBarTests */,
+				A203800BDD89C4BC193A2F825299791E /* Pods-Sample-InAppCallStatusBarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1C0C1FAD7EF4A2B83837076BC016EC8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5763CE68F88D4F141D48542FF3BC1 /* ASInAppCallStatusBar.h */,
+				1C5D983DCDAC9FC5D54F478D0D1187CE /* ASInAppCallStatusBar.m */,
+				23401ACBD81BE6382865DACE7CCD1079 /* TimerTargetWrapper.h */,
+				EB4308194A7605B2DDA932D5A2173B8D /* TimerTargetWrapper.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1A9A090B87F2DE85762957B69D9614 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4E2A0E7B8605394262128E2154FE700 /* ASInAppCallStatusBar.xib */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F816483E155931BF05E8F685C58C9A15 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F0A05194E907135A4D568CB576DAC0E /* ASInAppCallStatusBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F6E31E9D639BD3908BB906C22513DAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F6BCFFBED7BA291F6D61A17804937C /* ASInAppCallStatusBar.h in Headers */,
+				452C3A192077E0B09B15BADBD3571215 /* TimerTargetWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F5EDFC0AB673EA3624203EE2260F2E1 /* Pods-Sample-InAppCallStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D50002F385D70CCAF06B0C86ABF51B /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBar" */;
+			buildPhases = (
+				B93BE8DC809660A542735EAF627F6DD1 /* Sources */,
+				C270BC3780EF44922A9515BDFB198FE3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064A0B8CEC588F565F8AB2275EDF6AAC /* PBXTargetDependency */,
+			);
+			name = "Pods-Sample-InAppCallStatusBar";
+			productName = "Pods-Sample-InAppCallStatusBar";
+			productReference = 74279D31546DED4110A2900A47E68F9B /* libPods-Sample-InAppCallStatusBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CFBFF547D37205AE2898EC9A7E0DBDD /* ASInAppCallStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228CDC96B5267C4A9B702B51E0658A00 /* Build configuration list for PBXNativeTarget "ASInAppCallStatusBar" */;
+			buildPhases = (
+				3318334B8E9C0F97BA0D4FE5188DB6D3 /* Sources */,
+				00DA66A1543C8171240659F0E8179DD9 /* Frameworks */,
+				4F6E31E9D639BD3908BB906C22513DAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASInAppCallStatusBar;
+			productName = ASInAppCallStatusBar;
+			productReference = F09004A421C5BAD73DC1B6942048E208 /* libASInAppCallStatusBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C7B92A1E33043C1742C1C71FF56519F /* Pods-Sample-InAppCallStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA4F84C56BB428A13E7116CA526A2EC /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBarTests" */;
+			buildPhases = (
+				D82DA0BE03D5FB6A5EA7BF08AB0755BB /* Sources */,
+				1D35815B6BB2D00FE5BC31626D1519BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sample-InAppCallStatusBarTests";
+			productName = "Pods-Sample-InAppCallStatusBarTests";
+			productReference = D27FE87D2E68130685DB024F3F45B297 /* libPods-Sample-InAppCallStatusBarTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEA36DC9687051BF6A0564889DB3FED4 /* Pods-Sample-InAppCallStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AC1FF97D637851CF4F517767B0ED5C /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBarUITests" */;
+			buildPhases = (
+				C52CA44E065C833246F0962C76183958 /* Sources */,
+				D8C7D8E770600E877C970DA1B52A2E3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sample-InAppCallStatusBarUITests";
+			productName = "Pods-Sample-InAppCallStatusBarUITests";
+			productReference = 195F8855B557FAE6719C268E91401541 /* libPods-Sample-InAppCallStatusBarUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0463B87F5A7E2B865A872848BC06CCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CFBFF547D37205AE2898EC9A7E0DBDD /* ASInAppCallStatusBar */,
+				4F5EDFC0AB673EA3624203EE2260F2E1 /* Pods-Sample-InAppCallStatusBar */,
+				7C7B92A1E33043C1742C1C71FF56519F /* Pods-Sample-InAppCallStatusBarTests */,
+				DEA36DC9687051BF6A0564889DB3FED4 /* Pods-Sample-InAppCallStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3318334B8E9C0F97BA0D4FE5188DB6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5351AC8DC35FEEF86D9F5F5BFC52BF2 /* ASInAppCallStatusBar-dummy.m in Sources */,
+				BFE31B5D2A9B3BF61749E84427BA6D91 /* ASInAppCallStatusBar.m in Sources */,
+				002FB34BD5882B144FC2D5CD487D3C60 /* TimerTargetWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93BE8DC809660A542735EAF627F6DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5803A8B0AAF4E738259AAF3649C64C /* Pods-Sample-InAppCallStatusBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52CA44E065C833246F0962C76183958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B66566BE41A94E7B576BD7B602FF633 /* Pods-Sample-InAppCallStatusBarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DA0BE03D5FB6A5EA7BF08AB0755BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01BD4F6B90B8AB229FBB39D1896FB3 /* Pods-Sample-InAppCallStatusBarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064A0B8CEC588F565F8AB2275EDF6AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASInAppCallStatusBar;
+			target = 6CFBFF547D37205AE2898EC9A7E0DBDD /* ASInAppCallStatusBar */;
+			targetProxy = 03001A80FA6DE19B96FF1420E3EE4BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC5A857FE3DB1D795C20ECE1092C3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35BB0A4EFF9F2EF56054B7F8D4553AF /* Pods-Sample-InAppCallStatusBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3911C4A3F17AD3F4CF7BFF247626A636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04416B0A28BF183CE0760DC16BBD8944 /* Pods-Sample-InAppCallStatusBarTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A54517B75F6C6ECD8F6D50885276A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6811DE97ED3E5768242AE3B5B55DBC2C /* ASInAppCallStatusBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASInAppCallStatusBar/ASInAppCallStatusBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9570E9B2606CF65A501D51EE5EAB8772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CBF7985DD8741514E3C2529AAC85C8 /* Pods-Sample-InAppCallStatusBarUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7A313A9FF88F2B60F5121F3B6842FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E3ADBECE0A2E38897D84DA858EC4F0 /* Pods-Sample-InAppCallStatusBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BCB3CE30BFBC3C2C3EDA8A8712AA715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD00B056493691C02BD7867D3B1F99A /* Pods-Sample-InAppCallStatusBarTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBA7CD7AE77EB9754150374EBC49779F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6811DE97ED3E5768242AE3B5B55DBC2C /* ASInAppCallStatusBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASInAppCallStatusBar/ASInAppCallStatusBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F461963CCD4CEF12F022E7C6B1BCBC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E025EBE7F14AC036052BE75F1F68EC /* Pods-Sample-InAppCallStatusBarUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228CDC96B5267C4A9B702B51E0658A00 /* Build configuration list for PBXNativeTarget "ASInAppCallStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA7CD7AE77EB9754150374EBC49779F /* Debug */,
+				5A54517B75F6C6ECD8F6D50885276A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AC1FF97D637851CF4F517767B0ED5C /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F461963CCD4CEF12F022E7C6B1BCBC10 /* Debug */,
+				9570E9B2606CF65A501D51EE5EAB8772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D50002F385D70CCAF06B0C86ABF51B /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A313A9FF88F2B60F5121F3B6842FFB /* Debug */,
+				0BC5A857FE3DB1D795C20ECE1092C3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA4F84C56BB428A13E7116CA526A2EC /* Build configuration list for PBXNativeTarget "Pods-Sample-InAppCallStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3911C4A3F17AD3F4CF7BFF247626A636 /* Debug */,
+				BCB3CE30BFBC3C2C3EDA8A8712AA715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

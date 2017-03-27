@@ -1,0 +1,16 @@
+PODS:
+  - ASInAppCallStatusBar (0.0.4)
+
+DEPENDENCIES:
+  - ASInAppCallStatusBar (from `../`)
+
+EXTERNAL SOURCES:
+  ASInAppCallStatusBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASInAppCallStatusBar: 4e156d7b12016e08cf00b28e8cb3170b70f190a5
+
+PODFILE CHECKSUM: 4acfdc6b90fd7260cbe293ffd83c26556c1318e4
+
+COCOAPODS: 1.1.1

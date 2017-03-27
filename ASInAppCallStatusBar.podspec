@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASInAppCallStatusBar'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'A generic status bar for showing in app call is ongoing.
 '
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ASInAppCallStatusBar/Classes/**/*'
-  
-  s.resources = ['ASInAppCallStatusBar/**/*.png', 'ASInAppCallStatusBar/**/*.xib', 'ASInAppCallStatusBar/**/*.nib']
+  s.source_files = 'ASInAppCallStatusBar/Classes/*.{h,m}'
+  s.resources = 'ASInAppCallStatusBar/Assets/*.xib'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
